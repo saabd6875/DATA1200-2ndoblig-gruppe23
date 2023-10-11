@@ -11,12 +11,12 @@ overflow: hidden;
 background-color: #87ceeb;
 
 }
-li{
+.menuheader li{
     float: left;
     text-decoration: none;
 }
 
-li a {
+.menuheader li a {
     display: block;
     color: black;
     text-align: center;
