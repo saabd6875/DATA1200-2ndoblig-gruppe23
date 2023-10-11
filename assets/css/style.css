@@ -11,6 +11,11 @@ overflow: hidden;
 background-color: #87ceeb;
 
 }
+.menuheader li{
+    float: left;
+    text-decoration: none;
+}
+
 .menuheader li a {
     display: block;
     color: black;
