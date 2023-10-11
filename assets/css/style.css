@@ -3,13 +3,20 @@
 
 /* ------------------header*/
 
-ul {
+.menuheader ul {
 list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #87ceeb;
 
+}
+.menuheader li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
@@ -31,6 +38,9 @@ img {
 /*-----------Paragraphs*/
 .para{
     margin:0;
-    padding-left: 25px;
+    padding-left: 150px;
+    padding-right:5px;
     padding-top: 5px;
 }
+
+
