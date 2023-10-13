@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
 
 
 nav{
@@ -41,18 +41,40 @@ img {
 #kgjanany {
     color: #f02626;
 }
-.imageCredit {
+#imageCredit {
     font-family: 'Caveat', cursive;
-
     margin-left: 4px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #908a8a;
 }
 
 /*-----------Paragraphs*/
 .para{
+    font-family: "Moderat",sans-serif;
     margin:0;
     padding-left: 150px;
     padding-right:5px;
     padding-top: 5px;
+    line-height: 1.6;
 }
 
+/*----------------- Second page*/
+.goal {
+    
+    font-family: "Moderat",sans-serif;
+    padding: 25px 100px 0px 250px;
+
+}
+.goal p {
+    padding: 10px 0px 10px 0px;
+    
+
+}
+.goal ul {
+    line-height: 150%;
+}
+ .secpage{
+    padding-top: 50px ;
+    padding-left:250px;
+}
 
