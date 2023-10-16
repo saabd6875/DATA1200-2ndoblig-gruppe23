@@ -8,6 +8,7 @@ nav{
 }
 .menuheader ul{
     text-decoration: none;
+    margin: auto;
     
 }
 
@@ -30,7 +31,7 @@ nav{
 
 
 .active {
-    background-color:#5a86ad ;
+    background-color: #FF8100;
 }
 
 img {
@@ -82,12 +83,13 @@ footer li{
     text-decoration: none;
     list-style-type: none;
 }
+
 footer {
     position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#5a86ad;
+    background-color:#FF8100;
     color: white;
     text-align: center;
     list-style-type: none;
