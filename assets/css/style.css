@@ -38,11 +38,7 @@ img {
     height: auto;
 }
 
-.accessibility {
-    width: 60%;
-    height: auto;
-    margin-left: 20%;
-}
+
 
 
 #kgjanany {
@@ -66,6 +62,7 @@ img {
 }
 
 /*----------------- Second page*/
+
 .goal {
     
     font-family: "Moderat",sans-serif;
@@ -84,6 +81,18 @@ img {
     padding-top: 50px ;
     padding-left:250px;
 }
+.accessibility {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-bottom: 75px;
+    border: 5px solid #25211d;
+}
+#testresult{
+    padding:75px 0px 50px 250px;
+   
+}
+
 
 footer li{
     text-decoration: none;
