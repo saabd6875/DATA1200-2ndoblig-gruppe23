@@ -11,4 +11,4 @@ sitew6931
 riram5227
 
 ## Lighthouse test results
-![Alt text](assets/images/accessibility test.png?raw=true "Accessibility test results")
+![Alt text](assets/images/accessibility test.png))
