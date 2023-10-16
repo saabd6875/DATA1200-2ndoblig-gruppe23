@@ -1,30 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
 
-
-/* ------------------header*/
-
-.menuheader ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #87ceeb;
+nav{
+    margin: 0.4rem;
+    padding: 0;
 
 }
-.menuheader li{
-    float: left;
+.menuheader ul{
     text-decoration: none;
+    margin: auto;
+    
 }
 
-.menuheader li a {
-    display: block;
+.menuheader li{
+    text-decoration: none;
+    margin: 0;
+    text-align: left;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menuheader li a{
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 
+.active {
+    background-color: #FF8100;
+}
 
 img {
     width: 100%;
@@ -34,18 +41,58 @@ img {
 #kgjanany {
     color: #f02626;
 }
-.imageCredit {
+#imageCredit {
     font-family: 'Caveat', cursive;
-
     margin-left: 4px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #908a8a;
 }
 
 /*-----------Paragraphs*/
 .para{
+    font-family: "Moderat",sans-serif;
     margin:0;
     padding-left: 150px;
     padding-right:5px;
     padding-top: 5px;
+    line-height: 1.6;
 }
 
+/*----------------- Second page*/
+.goal {
+    
+    font-family: "Moderat",sans-serif;
+    padding: 25px 100px 0px 250px;
 
+}
+.goal p {
+    padding: 10px 0px 10px 0px;
+    
+
+}
+.goal ul {
+    line-height: 150%;
+}
+ .secpage{
+    padding-top: 50px ;
+    padding-left:250px;
+}
+
+footer li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#FF8100;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+ 
