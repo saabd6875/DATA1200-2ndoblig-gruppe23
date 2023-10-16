@@ -38,6 +38,13 @@ img {
     height: auto;
 }
 
+.accessibility {
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+
 #kgjanany {
     color: #f02626;
 }
