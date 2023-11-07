@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
-
-nav{
-    margin: 0.4rem; 
-    padding: 0;
-
-}
+/*Index html - header style*/
 .menuheader ul{
     text-decoration: none;
     margin: auto;
@@ -30,11 +25,12 @@ nav{
 
 
 .active {
-    background-color: #FF8100;
+    background-color:#FF8100;
+    border-bottom: 2px solid black;
 }
 
 img {
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 
@@ -62,7 +58,75 @@ img {
 }
 
 /*----------------- Second page*/
-
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color:#FF8100;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    padding: 28px 32px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color:black;
+    padding: 28px 32px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF8100;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /*Contents on learningoutcomes page*/
 .goal {
     
     font-family: "Moderat",sans-serif;
