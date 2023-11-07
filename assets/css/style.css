@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
 
+body{
+    margin-top: 8%;
+}
 
-nav{
+nav {
     margin-bottom: 0; 
     padding: 0;
     background-color: #FF8100;
     margin-top: 0;
-
+    position:absolute; /* eller position: absolute; hvis du vil at den dropper ned */
+    top: 0;
+    margin-left: -10px;
+    width: 100%; 
 }
+
 .menuheader ul{
     text-decoration: none;
     margin: 0;
@@ -20,6 +27,13 @@ nav{
     text-align: left;
     list-style-type: none;
     display: inline-block;
+    
+} 
+
+.menuheader li a:hover {
+    /* lagt til hoover effect */
+    color: white; 
+    cursor: pointer; 
 }
 
 .menuheader li a{
@@ -28,6 +42,7 @@ nav{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
     
 }
 
