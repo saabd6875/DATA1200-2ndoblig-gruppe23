@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
 
-<<<<<<< HEAD
 body{
     margin-top: 8%;
 }
@@ -14,44 +13,10 @@ nav {
     top: 0;
     margin-left: -10px;
     width: 100%; 
-=======
-nav{
-    margin: 0.4rem; 
-    padding: 0;
-
->>>>>>> aab13af16f1f5b553962a4b0f84efcbacbdd6ed0
 }
 
-.menuheader ul{
-    text-decoration: none;
-    margin: 0;
-    
-}
 
-.menuheader li{
-    text-decoration: none;
-    margin: 0;
-    text-align: left;
-    list-style-type: none;
-    display: inline-block;
-    
-} 
 
-.menuheader li a:hover {
-    /* lagt til hoover effect */
-    color: white; 
-    cursor: pointer; 
-}
-
-.menuheader li a{
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: bold;
-    
-}
 
 
 .active {
@@ -62,8 +27,6 @@ img {
     width: 75%;
     height: auto;
 }
-
-
 
 
 #kgjanany {
@@ -91,15 +54,21 @@ img {
 .navbar {
     overflow: hidden;
     background-color:#FF8100;
+    margin-top: 0;
+    top: 0;
+    margin-left: -10px;
+    width: 100%; 
+    font-size: 18px;
   }
   
   /* Links inside the navbar */
   .navbar a {
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     color:black;
     text-align: center;
     padding: 28px 32px;
+    padding-left: 40px;
     text-decoration: none;
   }
   
