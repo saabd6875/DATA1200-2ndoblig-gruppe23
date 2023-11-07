@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap');
-/*Index html - header style*/
+
+nav{
+    margin: 0.4rem; 
+    padding: 0;
+
+}
 .menuheader ul{
     text-decoration: none;
-    margin: auto;
+    margin: 0;
     
 }
 
@@ -25,8 +30,7 @@
 
 
 .active {
-    background-color:#FF8100;
-    border-bottom: 2px solid black;
+    background-color: #FF8100;
 }
 
 img {
