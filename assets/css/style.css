@@ -59,6 +59,8 @@ img {
     margin-left: -10px;
     width: 100%; 
     font-size: 18px;
+    font-family:sans-serif;
+    font-weight: bold; 
   }
   
   /* Links inside the navbar */
@@ -88,6 +90,7 @@ img {
     background-color: inherit;
     font-family: inherit; 
     margin: 0; 
+    font-weight: bold;
   }
   
   
@@ -159,12 +162,16 @@ img {
 footer li{
     text-decoration: none;
     list-style-type: none;
+    padding: auto;
 }
 
 footer {
     position: relative;
+    overflow: hidden;
     left: 0;
     bottom: 0;
+    margin-bottom: 0;
+    margin-left: -10px;
     width: 100%;
     background-color:#FF8100;
     color: white;
